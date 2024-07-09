@@ -19,3 +19,9 @@ spawn:
   z: 1226.5
   world: world
 deco_freeze_nombre_de_jours_ban: 30
+custom_blocks_sounds_patch:
+  enabled: true
+  step:
+    enabled: true
+    allow_non_player: true
+  other: true

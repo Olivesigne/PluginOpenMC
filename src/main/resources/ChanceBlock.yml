@@ -1,0 +1,35 @@
+info:
+  namespace: chanceblock
+items:
+  red_block:
+    display_name: Chance Block
+    permission: chance_block
+    resource:
+      generate: true
+      material: WOOD
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: BLOCK
+          rotx: 0
+          roty: 0
+        cancel_drop: true
+        light_level: 12
+        break_tools_blacklist:
+
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+        hardness: 2
+        blast_resistance:
+        no_explosion: true
+        sound:
+          break:
+            name: sounds:ChanceBlock.mp3
+            volume: 1
+            pitch: 1.2
+          place:
+            name: BLOCK_METAL_PLACE
+            volume: 1
+            pitch: 1.2
